@@ -1,9 +1,9 @@
 name: new-relic-exporter
 
-on:
-  workflow_run:
-    workflows: ['*']
-    types: [completed] # defaults to run on every completed workflow run event
+# on:
+#  workflow_run:
+#    workflows: ['*']
+#    types: [completed] # defaults to run on every completed workflow run event
 
 env:
   GHA_TOKEN: ${{ secrets.GITHUB_TOKEN }}
